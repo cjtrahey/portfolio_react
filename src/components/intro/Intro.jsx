@@ -20,7 +20,8 @@ export default function Intro() {
         <div className="left">
           <div className="imgContainer">
             {/* be sure to change this to something that actually is of yourself, or for the project at hand  */}
-            <img src="assets/man.png" alt=""/> 
+            {/* <img src="assets/man.png" alt=""/>  */}
+            <img src="https://i.redd.it/t33u22aqu4h41.png" alt=""/> 
           </div>
         </div>
         <div className="right">
