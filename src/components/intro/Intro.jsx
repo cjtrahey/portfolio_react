@@ -10,8 +10,8 @@ export default function Intro() {
     init(textRef.current, {
        backDelay: 1500,
        backSpeed: 60,
-       showCursor: true,
-        strings: ['Developer', 'Front-End Developer', 'Full-Stack Developer', 'Pokemon Fan' ],
+       showCursor: true, // shows the blinking cursor
+        strings: ['Developer', 'Front-End Developer', 'Full-Stack Developer', 'Pokemon Fan' ], //any titles or things you can think of that looks cool
        });
   },[])
   
@@ -19,7 +19,8 @@ export default function Intro() {
     <div className="intro" id="intro">
         <div className="left">
           <div className="imgContainer">
-            <img src="assets/man.png" alt=""/>
+            {/* be sure to change this to something that actually is of yourself, or for the project at hand  */}
+            <img src="assets/man.png" alt=""/> 
           </div>
         </div>
         <div className="right">

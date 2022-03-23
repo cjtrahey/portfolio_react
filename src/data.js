@@ -1,3 +1,18 @@
+// BE SURE!! 
+// to rename or restructure anything used in this template for future projects
+// to fit the data you need to implement into your component.
+// This goes for ALL "const" tags you may use in the future.
+// The actual template for this is as follows, for future reference:
+// (if it's the primary tab, be sure to add "export")
+// const yourNameHere = [
+//   {
+//     id: 1,
+//     title: "Your Name Here",
+//     img: "img URL here",
+//   },
+      // add another {} section if you are using multiple - you probably will.
+// ]
+
 export const featuredPortfolio = [
     {
       id: 1,

@@ -11,9 +11,12 @@ import {
 
 export default function Portfolio() {
 
+  // ... =useState("this is where you place your default selection");
   const [selected,setSelected] = useState("featured");
   const [data,setData] = useState([]);
   const list = [
+
+    // Feel free to rename any of these to fit into your needs, just be sure to change the id tag in "data.js"
     {
       id: "featured",
       title: "Featured",
@@ -36,6 +39,7 @@ export default function Portfolio() {
     },
   ];
 
+  // ALSO!! Be sure to change whatever's in () as to not break things, hopefully :)
   useEffect(()=> {
 
     switch(selected) {
@@ -60,6 +64,7 @@ export default function Portfolio() {
 
   },[selected])
 
+  // If you are using this template for anything other than a portfolio, be sure to rename ALL components in this as well.
   return (
     <div className="portfolio" id="portfolio">
         <h1>Portfolio</h1>
