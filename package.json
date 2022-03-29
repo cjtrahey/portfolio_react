@@ -1,7 +1,6 @@
 {
   "name": "my-portfolio",
   "version": "0.1.0",
-  "homepage": "https://cjtrahey.github.io/portfolio_react/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -18,8 +17,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "portfolio_react -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
