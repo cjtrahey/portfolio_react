@@ -3,9 +3,9 @@ import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import { 
   featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
-  designPortfolio,
+  frontEndPortfolio,
+  backEndPortfolio,
+  fullStackPortfolio,
   contentPortfolio,
  } from "../../data";
 
@@ -22,21 +22,21 @@ export default function Portfolio() {
       title: "Featured",
     },
     {
-      id: "web",
-      title: "Web App",
+      id: "frontend",
+      title: "Front-End",
     },
     {
-      id: "mobile",
-      title: "Mobile App",
+      id: "backend",
+      title: "Back-End",
     },
     {
-      id: "design",
-      title: "Design",
+      id: "fullstack",
+      title: "Full-Stack",
     },
-    {
-      id: "content",
-      title: "Content",
-    },
+    // {
+    //   id: "content",
+    //   title: "Content",
+    // },
   ];
 
   // ALSO!! Be sure to change whatever's in () as to not break things, hopefully :)
@@ -46,18 +46,18 @@ export default function Portfolio() {
       case "featured":
         setData(featuredPortfolio);
         break;
-      case "web":
-        setData(webPortfolio);
+      case "frontend":
+        setData(frontEndPortfolio);
         break;
-      case "mobile":
-        setData(mobilePortfolio);
+      case "backend":
+        setData(backEndPortfolio);
         break;
-      case "design":
-        setData(designPortfolio);
+      case "fullstack":
+        setData(fullStackPortfolio);
         break;
-      case "content":
-        setData(contentPortfolio);
-        break;
+      // case "content":
+      //   setData(contentPortfolio);
+      //   break;
         default:
           setData(featuredPortfolio);
     }
