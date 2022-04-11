@@ -6,7 +6,7 @@ import {
   frontEndPortfolio,
   backEndPortfolio,
   fullStackPortfolio,
-  contentPortfolio,
+  // contentPortfolio,
  } from "../../data";
 
 export default function Portfolio() {
@@ -75,6 +75,7 @@ export default function Portfolio() {
             active={selected === item.id}
             setSelected={setSelected}
             id={item.id}
+            href={item.href}
             />
           ))}
         </ul>

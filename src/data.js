@@ -20,6 +20,7 @@ export const featuredPortfolio = [
       title: "Notes App",
       img:
         "https://clickup.com/blog/wp-content/uploads/2020/01/note-taking.png",
+      href: "https://notes-app-react.herokuapp.com/",
     },
     {
       id: 2,
@@ -33,6 +34,12 @@ export const featuredPortfolio = [
       img:
         "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/47aa61101334781.5f1c660e2b883.jpg",
     },
+    {
+      id: 4,
+      title: "Maps",
+      img:
+        "https://s3.amazonaws.com/images.seroundtable.com/google-maps-15-1580992436.jpg",
+    }
     // {
     //   id: 4,
     //   title: "Relax Mobile App",
@@ -58,13 +65,13 @@ export const featuredPortfolio = [
   export const frontEndPortfolio = [
     {
       id: 1,
-      title: "Web Social Media App",
-      img: "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+      title: "Maps",
+      img: "https://s3.amazonaws.com/images.seroundtable.com/google-maps-15-1580992436.jpg",
     },
     {
       id: 2,
-      title: "Web Rampa UI Design",
-      img: "https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900",
+      title: "Portfolio",
+      img: "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/47aa61101334781.5f1c660e2b883.jpg",
     },
   ];
   
@@ -72,9 +79,9 @@ export const featuredPortfolio = [
   export const backEndPortfolio = [
     {
       id: 1,
-      title: "Mobile Social Media App",
+      title: "README Generator",
       img:
-        "https://cdn.dribbble.com/users/2597268/screenshots/15468893/media/44313553d73ba41580f1df69749bba28.jpg?compress=1&resize=1200x900",
+        "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/273_Readme_logo-512.png",
     },
     {
       id: 2,
@@ -90,9 +97,9 @@ export const featuredPortfolio = [
   export const fullStackPortfolio = [
     {
       id: 1,
-      title: "Design Social Media App",
+      title: "Notes App",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://clickup.com/blog/wp-content/uploads/2020/01/note-taking.png",
     },
     {
       id: 2,
@@ -128,41 +135,3 @@ export const featuredPortfolio = [
   
 
   // "5"
-  export const contentPortfolio = [
-    {
-      id: 1,
-      title: "Content Social Media App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 2,
-      title: "Content Rampa UI Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 3,
-      title: "Content E-commerce Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 4,
-      title: "Content Relax Mobile App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 5,
-      title: "Content Keser Web Design",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-    {
-      id: 6,
-      title: "Content Banking App",
-      img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
-    },
-  ];
